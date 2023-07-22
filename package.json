@@ -4,12 +4,12 @@
         "pebble-clay": "^1.0.1"
     },
     "keywords": [],
-    "name": "fill-me-in",
+    "name": "OpenSauce",
     "pebble": {
         "capabilities": [
             "configurable"
         ],
-        "displayName": "FILL ME IN!",
+        "displayName": "OpenSauce",
         "enableMultiJS": true,
         "messageKeys": [
             "TIME_COLOR",
@@ -19,7 +19,33 @@
         ],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/quiet_time_red_white_14x14.png",
+                    "name": "IMAGE_QUIET_TIME",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/opensauce.png",
+                    "name": "IMAGE_MAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_25x25.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_disconnect.png",
+                    "name": "IMAGE_BT_DISCONNECT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
